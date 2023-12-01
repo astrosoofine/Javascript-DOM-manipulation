@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --bg-color:limegreen;
+
+}
+body{
+    background-color: var(--bg-color);
+    overflow:hidden;
+}
+.darkTheme{
+    --bg-color:black;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    background-color: white;
+    box-shadow: 0 0 10px;
+    width: 100%;
+    position: relative;
+}
+.links{
+    margin-left: 20px;
+    text-decoration: none;
+    color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+i{
+    color: green;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.container{
+    width: 300px;
+    box-shadow: 0 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:180px;
+    margin-left: 500px;
+    border-radius: 10px;
+    flex-direction: column;
+    background-color: white;
+
+}
+.container-info{
+    width: 100%;
+    text-align: center;
+    padding-top:20px;
+    background-color: limegreen;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+
+
+    
+}
+.content{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.switchcontainer{
+    width:50px;
+    height:21px;
+    background-color: grey;
+    border-radius: 10px;
+    position: relative;
+    
+}
+.toggleswitch{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    right:3px;
+    cursor: pointer;
+
+}
+.left{
+    left: 3px;
+}
+
+.info{
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.settings-menu{
+    width: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+    position: absolute;
+    right: 0;
+    top:70px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: margin-right .5s;
+}
+.profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 2px solid grey;
+}
+.other-info{
+    margin-top: 10px;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.hide{
+    margin-right: -500px;
+}
